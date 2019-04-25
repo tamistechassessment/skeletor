@@ -13,16 +13,14 @@ The Movie DB project (www.themoviedb.org) is a free community built database of 
 The APIs are all REST and return JSON data.  Visit https://developers.themoviedb.org/3/getting-started for detailed documentation regarding the API.  Your assignment should you choose to accept it is to pretend as though you were writing automated test cases on a new release of the TMDB API.
 
 The requirements for the assessment are as follows:
-1. You’ll need to create a free developer API key that is required to use the API
-2. Don’t worry about sending us the key or checking it into a repo, but it will be required for you to run the tests
-3. Assume the new "feature" for the release you are testing is movie search
-4. Use our existing framework and libraries to create some tests for movie search
-5. Stub out all those tests with functions and using comments in the code write TODOs for the name of the tests and 1-2 sentences describing what the test will do and why
-6. Implement 3-4 of the tests with actual runnable code
-7. Clear, concise code is important
-8. Code maintenance is paramount... any new libraries added should account for this
-9. Bonus points are given for non-happy path test scenarios and more creative approaches
-10. The TV search tests are samples to get you started.  While we would expect that you are following a similar **pattern** don't assume that the TV tests are complete, i.e.:
+1. Assume the new "feature" for the release you are testing is movie search
+2. Use our existing framework and libraries to create some tests for movie search
+3. Stub out all those tests with functions and using comments in the code write TODOs for the name of the tests and 1-2 sentences describing what the test will do and why
+4. Implement 3-4 of the tests with actual runnable code
+5. Clear, concise code is important
+6. Code maintenance is paramount... any new libraries added should account for this
+7. Bonus points are given for non-happy path test scenarios and more creative approaches
+8. The TV search tests are samples to get you started.  While we would expect that you are following a similar **pattern** don't assume that the TV tests are complete, i.e.:
      - An **exact** copy/paste of the TV tests modified to Movie tests is not what your goal should be
      - They are probably not doing all the assertion needed
      - They are not covering all the test scenarios
