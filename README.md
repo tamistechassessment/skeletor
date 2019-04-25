@@ -25,7 +25,7 @@ The requirements for the assessment are as follows:
      - They are probably not doing all the assertion needed
      - They are not covering all the test scenarios
      
-`NOTE:  to run the tests from IntelliJ you should be able to just right click on the test Class or Method and select "Run '<test>'"`
+`NOTE:  if you are using IntelliJ, to run the tests you should be able to just right click on the test Class or Method and select "Run '<test>'"`
      
      
 **Part 2:  Web UI Technical Assessment**
@@ -42,8 +42,8 @@ Test case:
 The requirements for the assessment are as follows:
 1. Use our existing framework and libraries to create this additional test case
 2. Clear, concise code is important
-3. Code maintenance and robustness is paramount... any new libraries/page object added should account for this **fragile** page elements will lose points
+3. Code maintenance and robustness is paramount... any new libraries/page object added should account for this. **Fragile** page elements will lose points
 
 
-`NOTE:  to run the tests from IntelliJ you should be able to just right click on the test Class or Method and select "Run '<test>'"`
+`NOTE:  if you are using IntelliJ, to run the tests you should be able to just right click on the test Class or Method and select "Run '<test>'"`
 
