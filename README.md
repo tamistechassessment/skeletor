@@ -25,8 +25,7 @@ The requirements for the assessment are as follows:
      - They are probably not doing all the assertion needed
      - They are not covering all the test scenarios
      
-`NOTE to run the API tests you will need to create a debug/run configuration Java VM option named tmdb.apiKey
-and the value of that VM option needs to be the v3 API key that you created in step 1.  For example:  -Dtmdb.apiKey=17ff4a5d4f0b47e5f96187b898a79970a`
+`NOTE:  to run the tests from IntelliJ you should be able to just right click on the test Class or Method and select "Run '<test>'"`
      
      
 **Part 2:  Web UI Technical Assessment**
@@ -45,4 +44,6 @@ The requirements for the assessment are as follows:
 2. Clear, concise code is important
 3. Code maintenance and robustness is paramount... any new libraries/page object added should account for this **fragile** page elements will lose points
 
+
+`NOTE:  to run the tests from IntelliJ you should be able to just right click on the test Class or Method and select "Run '<test>'"`
 
