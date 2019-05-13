@@ -17,15 +17,15 @@ public class SauceDemoLoginTest extends BaseUITest {
         SauceDemo.Login.login("standard_user", "secret_sauce");
 
         softAssert.assertTrue(SauceDemo.MenuBar.menuBarButtonExists(), "Unable to find Menu Bar button, login must have failed");
-        softAssert.assertTrue(SauceDemo.Dashboard.productContainerIsVisible(), "Unable to find Product Container, dashboard must have failed to load");
+        softAssert.assertTrue(SauceDemo.Dashboard.productContainerIsVisible(), "Unable to find ProductPage Container, dashboard must have failed to load");
 
         softAssert.assertAll();
     }
 
     @Test
     public void invalidLogin() {
-        final String expectedMessage = "do not match any user";
-
+//        final String expectedMessage = "do not match any user";
+        final String expectedMessage = "invalid";
         SauceDemo.Login.login("standard_user", "invalid");
 
         Wait.For("Error Message to Exist ", SauceDemo.Login::isErrorVisible);

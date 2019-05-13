@@ -27,7 +27,6 @@ public class APIPropertyManager {
         baseAPIUrl = System.getProperty("tmdbHost");
         if (baseAPIUrl == null) {
             log.info("host property not set, using https://api.themoviedb.org/3/");
-            baseAPIUrl = "https://api.themoviedb.org/3/";
         }
     }
 

@@ -6,6 +6,7 @@ import com.automation.techassessment.api.endpoints.tv.TVResponse;
 import com.automation.techassessment.api.errors.ApiEndpointInitializationError;
 import com.automation.techassessment.api.errors.RestCallError;
 import com.automation.techassessment.api.wrapper.InitializableServiceWrapper;
+import com.automation.techassessment.api.wrapper.MovieWrapper;
 import com.automation.techassessment.api.wrapper.TVWrapper;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -16,9 +17,11 @@ import static com.automation.techassessment.api.errors.RestCallError.throwIfCall
  * The root of the ares-clients high level API.
  */
 public class ApiClient {
+
     protected static Logger log = LogManager.getLogger(ApiClient.class);
     private ApiEndpoints rest;
     public TVWrapper tv;
+    public MovieWrapper movie;
 
     /**
      * Create a high level client using the defaults for the low level client.  This will create a new "session"
@@ -44,6 +47,7 @@ public class ApiClient {
      */
     protected void initializeServices() {
         tv = getServiceWrapper(TVWrapper.class);
+        movie = getServiceWrapper(MovieWrapper.class);
     }
 
     /**

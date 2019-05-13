@@ -82,7 +82,6 @@ public class ApiEndpointDefaults {
      */
     private static Gson initGson() {
         GsonBuilder gsonBuilder = new GsonBuilder();
-
         return gsonBuilder.setLenient().create();
     }
 
@@ -135,6 +134,7 @@ public class ApiEndpointDefaults {
             e.printStackTrace();
             throw new RuntimeException(e);
         }
+
     }
 
     /**

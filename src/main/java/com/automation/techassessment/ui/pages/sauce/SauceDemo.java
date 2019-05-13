@@ -6,4 +6,6 @@ public class SauceDemo {
     public static final LoginPage Login = new LoginPage();
     public static final DashboardPage Dashboard = new DashboardPage();
     public static final MenuBar MenuBar = new MenuBar();
+    public static final ProductPage Product = new ProductPage();
+    public static final CartPage Cart = new CartPage();
 }
