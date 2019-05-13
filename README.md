@@ -27,8 +27,13 @@ The requirements for the assessment are as follows:
      - They are not covering all the test scenarios
      
 `NOTE:  if you are using IntelliJ, to run the tests you should be able to just right click on the test Class or Method and select "Run '<test>'"`
-     
-     
+
+
+
+Tamera Eaton - I have completed the assignment. My test are located in the SaucedemoUitests class. They can be run the same way your test are run.
+
+
+
 **Part 2:  Web UI Technical Assessment**
 
 We would like to assess how you create a simple Web test. 
@@ -48,3 +53,5 @@ The requirements for the assessment are as follows:
 
 `NOTE:  if you are using IntelliJ, to run the tests you should be able to just right click on the test Class or Method and select "Run '<test>'"`
 
+
+Tamera Eaton - I have completed the assignment. My test are located in the MovieSearchTEst class. They can be run the same way your test are run.
